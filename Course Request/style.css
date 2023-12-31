@@ -1,0 +1,109 @@
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Suggestion Form Section Area Start */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.main-suggestion {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.suggestion-para {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.para-child {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.suggestion-form {
+  /* background-color: #000000; */
+  color: #fff;
+  margin: auto;
+  width: 60%;
+  margin-top: 50px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 45px;
+}
+
+#full_name {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: #161616;
+  outline: none;
+  border-bottom: 1px solid #979393;
+}
+
+#full_name:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+#suggestion-email {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: #161616;
+  outline: none;
+  border-bottom: 1px solid #979393;
+}
+
+#suggestion-email:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+#style_name {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: #161616;
+  outline: none;
+  border-bottom: 1px solid #979393;
+  cursor: white;
+}
+
+#style_name:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+#insta_handle {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: #161616;
+  outline: none;
+  border-bottom: 1px solid #979393;
+}
+
+#insta_handle:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+.input-details {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+#textarea {
+  background-color: #161616;
+  color: #fff;
+  padding: 20px;
+  resize: none;
+  outline: none;
+  border: none;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Suggestion Form Section Area End */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
