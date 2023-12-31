@@ -1,0 +1,81 @@
+.testimonial-title {
+  margin-top: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: teal;
+  text-transform: uppercase;
+}
+
+.our-testi {
+  margin-top: -10px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(61, 102, 104);
+}
+
+.t-second {
+  text-align: center;
+  font-style: italic;
+  color: rgb(61, 102, 104);
+}
+.testimonial-container {
+  background-color: #f4f4f4;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.testimonial-flex-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  /* background-color: blueviolet; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 12px;
+  display: flex;
+  width: 350px;
+  height: 200px;
+  margin: 3px;
+  margin: auto;
+}
+
+.testimonial-top {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
+}
+
+.testimonial-content {
+  margin-left: 10px;
+  border-left: 1px solid orange;
+  padding: 10px;
+}
+
+.testimonial-name {
+  margin-top: -10px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.testimonial-post {
+  color: brown;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.testimonial-desc {
+  font-size: 15px;
+  overflow: hidden;
+  font-style: italic;
+  text-align: justify;
+}
