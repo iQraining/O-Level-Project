@@ -1,0 +1,129 @@
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Primary Footer Section Area Start */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.main-footer {
+  background-color: #000000;
+}
+
+.footer {
+  /* border-top: 1px solid #949292; */
+  /* background-color: #000000; */
+  width: 1290px;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li h3 {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgb(155, 155, 150);
+}
+.list {
+  list-style-type: none;
+  padding-top: 7px;
+  display: block;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 10px;
+  text-shadow: none;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-span {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.subscribe {
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+::placeholder {
+  transform: translateX(20px);
+}
+
+.footer-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  border-bottom: 1px solid #a5a2a2;
+  opacity: 0.5;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* Secondary Footer Start */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.secondary-footer {
+  /* background-color: #6181ff; */
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.social-icons {
+  width: 50px;
+  font-size: 30px;
+}
+
+.credit {
+  color: #fff;
+}
+
+.credit-to {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+.credit-to {
+  background-image: linear-gradient(45deg, #f3626b, #6181ff, #a25bf2, #ffc100);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-keyframe 3s linear infinite;
+}
+
+@keyframes rainbow-keyframe {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* Secondary Footer End */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Primary Footer Section Area End */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
