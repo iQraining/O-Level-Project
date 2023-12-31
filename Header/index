@@ -1,0 +1,90 @@
+#Add Font Awesome CDN For Icons.
+
+<div class="container">
+  <div class="left">
+    <a href="/index.html">
+      <img src="/img/iQraining.png" alt="" />
+    </a>
+  </div>
+
+  <div class="middle" ng-app="" ng-init="iQcolor">
+    <input
+      class="search"
+      type="search"
+      placeholder="What course you looking for today...?"
+    />
+    <div class="parent">
+      <div id="icon">
+        <i class="fa-solid fa-magnifying-glass icon" style="color: #fff"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="last">
+    <ul>
+      <li><a class="main-li-a" href="/index.html">Home</a></li>
+      <li><a class="main-li-a" href="page/course.html">Course</a></li>
+      <!-- <li><a class="main-li-a" href="#">Price</a></li> -->
+      <li>
+        <a class="main-li-a" href="/page/contact.html">Contact Us</a
+        ><i class="fa-solid fa-headphones"></i>
+      </li>
+      <button class="enroll-btn">
+        <a href="/page/register.html">Enroll Now</a>
+      </button>
+    </ul>
+  </div>
+</div>
+<!-- =============================================== -->
+<div class="iQ-nav-second">
+  <div class="inner-nav-list">
+    <ul>
+      <li>
+        <i class="fa-solid fa-laptop-code iQ-fa"></i
+        ><a class="list-a" href="/categories/WebDesign.html">Web Design</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-code iQ-fa"></i
+        ><a class="list-a" href="/categories/Programming.html"
+          >Programming</a
+        >
+      </li>
+      <li>
+        <i class="fa-solid fa-terminal iQ-fa"></i
+        ><a class="list-a" href="/categories/WebDevelopment.html"
+          >Web Development</a
+        >
+      </li>
+      <li>
+        <i class="fa-solid fa-palette iQ-fa"></i
+        ><a class="list-a" href="/categories/GraphicDesign.html"
+          >Graphic Design</a
+        >
+      </li>
+      <li>
+        <i class="fa-solid fa-chart-line iQ-fa"></i
+        ><a class="list-a" href="/categories/DataAnalysis.html"
+          >Data Analysis</a
+        >
+      </li>
+      <li>
+        <i class="fa-solid fa-robot iQ-fa"></i
+        ><a class="list-a" href="/categories/Artifical-lntelligence.html"
+          >Artifical Intelligence</a
+        >
+      </li>
+      <li>
+        <i class="fa-solid fa-server iQ-fa"></i
+        ><a class="list-a" href="/categories/Mysql.html">MYSQL</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-database iQ-fa"></i
+        ><a class="list-a" href="/categories/Database.html">Databse</a>
+      </li>
+      <li>
+        <i class="fa-brands fa-laravel iQ-fa iQ-fa-lara"></i
+        ><a class="list-a" href="/categories/framework.html">Framework</a>
+      </li>
+    </ul>
+  </div>
+</div>
