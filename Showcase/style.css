@@ -1,0 +1,45 @@
+.benefits-container {
+  /* background-color: yellow; */
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  margin-top: -40px;
+}
+
+.benefits-content {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.benefits-left,
+.benefits-right {
+  width: 600px;
+}
+
+.benefits-img {
+  transform: translateX(60px);
+  border-radius: 7px;
+}
+
+.benefits-text {
+  transform: translateX(-30px);
+}
+
+.benefits-para {
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.benefits-cate-title {
+  font-size: 30px;
+  color: steelblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+/* =========================================== */
